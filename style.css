@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.conteiner {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/background.jpeg);
+
+}
+
+.menu {
+    height: 100px;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 50px;
+    background: red;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.menu img {
+    margin-left: 50px;
+}
+
+.corpo {
+    
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 2.1rem;
+    margin-bottom: 35px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.email {
+    align-items: center;
+    text-align: center;
+    padding-right: 250px;
+}
+
+input {
+    height: 80px;
+    width: 550px;
+    padding-left: 15px;
+    font-size: 1.3rem;
+}
+
+.email button {
+    height: 80px;
+    background-color: #e50914;
+    width: 250px;
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+}
